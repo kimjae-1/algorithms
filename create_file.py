@@ -15,4 +15,4 @@ def make_file(typ,level,file_name):
     with open(os.path.join(path, 'README.md'), 'w'):
         pass
     
-make_file('solved.ac','level3','1620_포켓몬')
+make_file('solved.ac','level3','9375_패션왕')
