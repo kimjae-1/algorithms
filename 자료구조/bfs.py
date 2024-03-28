@@ -1,5 +1,5 @@
-# BFS 
-# que 사용
+# BFS(너비우선탐색)
+# using que 
 from collections import deque
     
 def bfs(root):
