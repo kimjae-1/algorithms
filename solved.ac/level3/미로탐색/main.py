@@ -4,7 +4,7 @@ from collections import deque
 sys.stdin = open('./solved.ac/level3/미로탐색/input.txt', 'r')
 input = sys.stdin.readline
 
-N, M = map(int,input().rstrip().split())
+N, M = map(int,input().rstrip().split()) 
 case_matrix = []
 for _ in range(N):
     case_matrix.append(list(map(int, input().rstrip())))
@@ -21,4 +21,13 @@ while Q:
 
 print(case_matrix[N-1][M-1])
             
+
+            
+            
+            
+
+
+            
+    
+
     

@@ -19,10 +19,6 @@ def BFS(row,col):
                     Q.append((n_row,n_col))
                     s += 1
     return 1,s
-        
-    
-    
-
 
 cnt = 0
 space = []
@@ -38,4 +34,3 @@ for row in range(n):
             
 print(cnt)
 print(max(space) if cnt >= 1 else 0)
-
