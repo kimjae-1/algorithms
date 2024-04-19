@@ -3,6 +3,8 @@ sys.stdin = open('./solved.ac/1003_피보나치/input.txt', 'r')
 
 T = int(input())
 
+
+
 def fibonacci(n):
     if n == 0:
         return 0
