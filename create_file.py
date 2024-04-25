@@ -15,4 +15,4 @@ def make_file(typ,level,file_name):
     with open(os.path.join(path, 'README.md'), 'w'):
         pass
     
-make_file('solved.ac','level3','1541_잃어버린괄호')
+make_file('solved.ac','level3','2630_색종이')
