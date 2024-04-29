@@ -37,3 +37,7 @@ def valid(matrix):
 valid(matrix)
 print(white)
 print(blue)
+
+
+
+        
