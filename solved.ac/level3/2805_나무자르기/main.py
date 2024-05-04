@@ -22,5 +22,16 @@ while low <= high:
 print(high)
 
 
+low = 1
+high = max(trees)
+
+while low <= high:
+    mid = (low + high) //2
+    total = 0
+    for i in trees:
+        if i > mid:
+            total += i -mid
+    if total < M:
+        high = mid
         
         
